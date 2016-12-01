@@ -1,0 +1,24 @@
+git init
+
+git config --global user.name "Iury Chagas"
+git config --global user.email "iurychagas@icloud.com"
+git config core.editor
+git config --list
+
+git status
+
+git add
+git commit -m "msg..."
+git log 
+git log --decorate
+git log --author="Iury"
+git shortlog
+git shortlog -sn
+git log --graph
+
+git show [n°rash]
+
+
+git diff 
+
+git 
