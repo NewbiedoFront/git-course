@@ -5,25 +5,23 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 ## links log: 
 
-*[Try Git - CodeSchool](https://try.github.io/levels/1/challenges/1)
-*[minicursogit](http://minicursogit.github.io/)
-*[Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
-*[Ebook Pro Git](https://git-scm.com/book/en/v2)
-*[Git/Github - Alura](bit.ly/Curso-Git)
-*[Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908670)
-*[Git/Github - RBtech](http://bit.ly/CursoBasicoGit-RBtech)
-*[Git - theandersonn](http://bit.ly/ComandosGit)
-*[Git - Roger Dudler](bit.ly/Git-O-Guia-Pratico)
-*[Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
-*[Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
+* [Try Git - CodeSchool](https://try.github.io/levels/1/challenges/1)
+* [minicursogit](http://minicursogit.github.io/)
+* [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
+* [Ebook Pro Git](https://git-scm.com/book/en/v2)
+* [Git/Github - Alura](bit.ly/Curso-Git)
+* [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908670)
+* [Git/Github - RBtech](http://bit.ly/CursoBasicoGit-RBtech)
+* [Git - theandersonn](http://bit.ly/ComandosGit)
+* [Git - Roger Dudler](bit.ly/Git-O-Guia-Pratico)
+* [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
+* [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 
 ## Semantic Versioning:
 
-*[Versionamento Semântico – Ou como versionar software](https://fjorgemota.com/versionamento-semantico-ou-como-versionar-software/)
-*[Versionamento com Tags do Git](http://bit.ly/semantica-de-versionamento-com-tags-do-git)
-*[Versionamento Semântico com GIT](http://www.jorgejardim.com.br/versionamento-semantico-com-git/)
-*[Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)
-*[semver.org](http://semver.org/)
-*[http://slides.com/renatofilho/github-equipe#/](Trabalhando em Equipe com GitHub)
-
-
+* [Versionamento Semântico – Ou como versionar software](https://fjorgemota.com/versionamento-semantico-ou-como-versionar-software/)
+* [Versionamento com Tags do Git](http://bit.ly/semantica-de-versionamento-com-tags-do-git)
+* [Versionamento Semântico com GIT](http://www.jorgejardim.com.br/versionamento-semantico-com-git/)
+* [Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)
+* [semver.org](http://semver.org/)
+* [http://slides.com/renatofilho/github-equipe#/](Trabalhando em Equipe com GitHub)
