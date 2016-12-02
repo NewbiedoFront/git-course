@@ -20,5 +20,7 @@ git show [n°rash]
 
 
 git diff 
+git diff --name-only
 
-git 
+git commit -am "msg..."
+
