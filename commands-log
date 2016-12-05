@@ -24,3 +24,7 @@ git diff --name-only
 
 git commit -am "msg..."
 
+git reset HEAD
+git reset --soft
+git reset --mixed
+git reset --hard
