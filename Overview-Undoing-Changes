@@ -1,35 +1,36 @@
-   Working Directory   |		(Index) Staging Area			 |   [HEAD] Repository Local	  | ||	 Repository Remote	  |
-		       |							 |				  | ||				  |
-		       |							 |				  | ||				  |
- 		>---git add --->  	      				 >--git commit--->		      >--git push--->	  		  |
-		 "add/update"						 "Launches on R.L"	             "Launches on R.R"			  |
-_______________________|_________________________________________________________|________________________________| ||____________________________|   
-       Untracked       |   	unmodified	|    modified	 |    Staged	 | 				  | ||				  |
-		       |  	"New File:"	|		 |Ready To Commit|				  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-            	>---git add-->	   	 >---git add-->		 |		 |				  | ||				  |
-	     	  " Adding "	   	  " Updating "		 |		 |				  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-		       |			|		 |		 |				  | ||			          |   
-		       |			|		 |		 |				  | ||				  |
-		       |        	<--git checkout---<	 |		 |				  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-		       |   			|		 |		 |				  | ||			          |   
-		       |   	 =		|	 =	 |  	=   	 |				  | ||				  |
- 		       |	 |		|	 |	 |  	|	 | 			          | ||				  |
-	  	<----------------|------git reset HEAD---|--------------|-<	 |				  | ||				  |
-	    	       | 	"Removing from the stage Area"	 		 |				  | ||				  |
-		       |   			|		 |		 |				  | ||			          |   
-		       |   			|		 |		 |				  | ||			          |   
-		       |   			|		 |		 |				  | ||			          |   
-		       |			|	   	 |      <-git reset --soft ---<			  | ||				  |
-		       |			|	         |     "To back to (Index)[Staged]"		  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-		       |			|		 |		 |				  | ||				  |
-		       |			|		 |		 |reset --mixed			  | ||				  |
-		       |			|		 |		 |reset --hard			  | ||				  |
-		       |			|		 |	 	 |				  | ||				  |
-		       |			|		 |	 	 |				  | ||				  |
-		       |			|		 |	 	 |				  | ||				  |
-		       |			|		 |	 	 |				  | ||				  |
+   Working Directory   |		(Index) Staging Area			 |  [HEAD] Repository Local  | ||  Repository Remote  |
+		       |							 |			     | ||		      |
+		       |							 |			     | ||		      |
+ 		>---git add --->  	      				 >--git commit--->		>--git push--->	  	      |
+		 "add/update"						 "Launches on R.L"	        "Launches on R.R"	      |
+_______________________|_________________________________________________________|___________________________| ||_____________________|   
+       Untracked       |   	unmodified	|    modified	 |    Staged	 | 			     | ||		      |	
+		       |  	"New File:"	|		 |Ready To Commit|			     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+            	>---git add-->	   	 >---git add-->		 |		 |			     | ||		      |
+	     	  " Adding "	   	  " Updating "		 |		 |			     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+		       |			|		 |		 |			     | ||		      |   
+		       |			|		 |		 |			     | ||		      |
+		       |        	<--git checkout---<	 |		 |			     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+		       |   			|		 |		 |			     | ||		      |   
+		       |   	 =		|	 =	 |  	=   	 |			     | ||		      |
+ 		       |	 |		|	 |	 |  	|	 | 			     | ||		      |
+	  	<----------------|------git reset HEAD---|--------------|-<	 |			     | ||		      |
+	    	       | 	"Removing from the stage Area"	 		 |			     | ||		      |
+		       |   			|		 |		 |			     | ||		      |   
+		       |   			|		 |		 |			     | ||		      |   
+		       |   			|		 |		 |			     | ||		      |   
+		       |			|	   	 |      <-git reset --soft ---<		     | ||		      |
+		       |			|	         |   "To back to (Index)[Staged]"	     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+		       |			|		 |		 |			     | ||		      |
+		       |			|	 <---git reset --mixed ---------------<		     | ||		      |
+		       |			|     "To come back before [staged] on (index)"		     | ||		      |         		       |			|		 |		 |			     | ||		      |
+		       |			|		 |	 	 |			     | ||		      |
+		   <--------------------- git reset --hard -----------------------------------<		     | ||		      |
+		       |  "General deletion: removes from within the local repository"			     | ||		      |
+		       |			|		 |	 	 |			     | ||		      |
+		       |			|		 |	 	 |			     | ||		      |
