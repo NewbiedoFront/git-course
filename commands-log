@@ -28,3 +28,7 @@ git reset HEAD
 git reset --soft
 git reset --mixed
 git reset --hard
+
+
+git tag -a 0.0.0 -m "description"
+git push origin master --tags
