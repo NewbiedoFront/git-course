@@ -44,5 +44,14 @@ git remote ------------------------------------------------<= Mostra quais repos
 git remote add NomeDoRepositorio http://url ---------------<= Criando, Nomeando e Linkando um repositorio remoto, Geralmente nomeado "origin"
 git push NomeDoRepositorioRemoto NomeDaBranch -------------<= Empurrar os commits alterados para o repositorio remoto
 git pull NomeDoRepositorioRemoto NomeDaBranch -------------<= Puxa as atualizações do repositorio remoto para o local
+git pull -u NomeDaBranch ----------------------------------<= Fazer com que a branch criada local seja a mesma criada no repositorio remoto
 
 git clone https://urlDoRepositorioRemoto ------------------<= Para Baixar uma copia "clonar" um repositorio remoto para o repositorio local
+
+
+git branch ------------------------------------------------<= Visualizar branches locais
+git branch -r ---------------------------------------------<= Visualizar somente as branches remotas 
+git branch NomeDaBranch -----------------------------------<= Criar uma Nova Branch
+* NomedaBranch --------------------------------------------<= O * Indica em qual branch estamos no repositorio local
+git checkout NomeDaBranch ---------------------------------<= Para pular/mudar de uma branch para outra
+git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch --<= O -t indica que a branch criada local deve ser traqueada com a branch remota
