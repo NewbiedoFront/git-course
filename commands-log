@@ -12,11 +12,13 @@ git status ------------------------------------------------<= Mostrar o status a
 git add	---------------------------------------------------<= Adicionando ou atualizando alterações nos arqs para a staging area/index
 git commit -m "msg..." ------------------------------------<= Criando novo commit com mensagem
 git log ---------------------------------------------------<= Visualização de commit e msgs
-git log --decorate ----------------------------------------<= Visualização mais completa commits
+git log --decorate ----------------------------------------<= Visualização mais completa dos commits
 git log --author="Iury" -----------------------------------<= Visualizar todos os commits de um autor especifico
 git shortlog ----------------------------------------------<= Visualizar apenas as mensagens dos commits
 git shortlog -sn ------------------------------------------<= Visualizar apenas n° de commits realizados por cada autor
 git log --graph -------------------------------------------<= Mostrar os commits visualmente como grafico
+git whatchanged -------------------------------------------<= Mostra além dos commits, "quais arqs" foram alterados em cadas commit
+git whatchanged -------------------------------------------<= Mostra quais alterações foram feitas "em cada arq" de cada commit
 
 git show [n°rash] -----------------------------------------<= Visualizar informações do commit como autor, data, hora, mensagem de commit
 
@@ -37,3 +39,10 @@ git push origin master --tags  ----------------------------<= Empurra a nova tag
 
 git ls ----------------------------------------------------<= Visualizar Todos os arqs que estão dentro da pasta monitorados e não monitorados
 git ls-files ----------------------------------------------<= Mostra todos os arqs monitorados
+
+git remote ------------------------------------------------<= Mostra quais repositorios remotos o repositorio local tem
+git remote add NomeDoRepositorio http://url ---------------<= Criando, Nomeando e Linkando um repositorio remoto, Geralmente nomeado "origin"
+git push NomeDoRepositorioRemoto NomeDaBranch -------------<= Empurrar os commits alterados para o repositorio remoto
+git pull NomeDoRepositorioRemoto NomeDaBranch -------------<= Puxa as atualizações do repositorio remoto para o local
+
+git clone https://urlDoRepositorioRemoto ------------------<= Para Baixar uma copia "clonar" um repositorio remoto para o repositorio local
