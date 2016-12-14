@@ -1,34 +1,39 @@
-git init
+git init --------------------------------------------------<= Iniciar o Monitoramento 
 
-git config --global user.name "Iury Chagas"
-git config --global user.email "iurychagas@icloud.com"
-git config core.editor
-git config --list
+git config user.name "Iury Chagas" ------------------------<= Configurar o Nome do admin apenas para o repositorio em questão
+git config user.email "iurychagas@icloud.com" -------------<= Configurar o email do admin apenas para o repositorio em questão
+git config --global user.name "Iury Chagas" ---------------<= Configurar o Nome do Admin/Master
+git config --global user.email "iurychagas@icloud.com" ----<= Configurar o email do Admin/Master
+git config core.editor ------------------------------------<= Configurar o Editor padrão para desenvolvimento
+git config --list -----------------------------------------<= Mostra todas as configurações personalizadas e padrões do git 
 
-git status
+git status ------------------------------------------------<= Mostrar o status atual do repositorio local :p
 
-git add
-git commit -m "msg..."
-git log 
-git log --decorate
-git log --author="Iury"
-git shortlog
-git shortlog -sn
-git log --graph
+git add	---------------------------------------------------<= Adicionando ou atualizando alterações nos arqs para a staging area/index
+git commit -m "msg..." ------------------------------------<= Criando novo commit com mensagem
+git log ---------------------------------------------------<= Visualização de commit e msgs
+git log --decorate ----------------------------------------<= Visualização mais completa commits
+git log --author="Iury" -----------------------------------<= Visualizar todos os commits de um autor especifico
+git shortlog ----------------------------------------------<= Visualizar apenas as mensagens dos commits
+git shortlog -sn ------------------------------------------<= Visualizar apenas n° de commits realizados por cada autor
+git log --graph -------------------------------------------<= Mostrar os commits visualmente como grafico
 
-git show [n°rash]
-
-
-git diff 
-git diff --name-only
-
-git commit -am "msg..."
-
-git reset HEAD
-git reset --soft
-git reset --mixed
-git reset --hard
+git show [n°rash] -----------------------------------------<= Visualizar informações do commit como autor, data, hora, mensagem de commit
 
 
-git tag -a 0.0.0 -m "description"
-git push origin master --tags
+git diff --------------------------------------------------<= Visualiar e comparar alterações atuais com as do ultimo commit
+git diff --name-only --------------------------------------<= Mostra apenas o nome dos arquivos que foram alterados e não commitados
+
+git commit -am "msg..." -----------------------------------<= Adicionar todas as modificações em um commmit
+
+git reset HEAD --------------------------------------------<= Retorna o arq atual para untracked e mantem o status do ultimo commit
+git reset --soft ------------------------------------------<= Retorna para para a fila de espera de commits --"Staged"
+git reset --mixed -----------------------------------------<= Retorna para antes da Fila de espera de commits [index / Staging Area] --"Modified"
+git reset --hard ------------------------------------------<= Manda as alterações e o commit para marte
+
+
+git tag -a 0.0.0 -m "description" -------------------------<= Adicionar a tag, tipo de modificação e Mensagem de commit
+git push origin master --tags  ----------------------------<= Empurra a nova tag para o repositorio remoto
+
+git ls ----------------------------------------------------<= Visualizar Todos os arqs que estão dentro da pasta monitorados e não monitorados
+git ls-files ----------------------------------------------<= Mostra todos os arqs monitorados
