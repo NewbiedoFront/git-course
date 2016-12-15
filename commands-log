@@ -19,6 +19,8 @@ git shortlog -sn ------------------------------------------<= Visualizar apenas 
 git log --graph -------------------------------------------<= Mostrar os commits visualmente como grafico
 git whatchanged -------------------------------------------<= Mostra além dos commits, "quais arqs" foram alterados em cadas commit
 git whatchanged -------------------------------------------<= Mostra quais alterações foram feitas "em cada arq" de cada commit
+git log -g ------------------------------------------------<= Visualizar commits que já foram deletados da HEAD. Função conhecida como "reflog"
+git reflog show -------------------------------------------<= Mostra versão abreviada do historico de commits em uma HEAD
 
 git show [n°rash] -----------------------------------------<= Visualizar informações do commit como autor, data, hora, mensagem de commit
 
