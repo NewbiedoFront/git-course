@@ -17,8 +17,9 @@ git log --author="Iury" -----------------------------------<= Visualizar todos o
 git shortlog ----------------------------------------------<= Visualizar apenas as mensagens dos commits
 git shortlog -sn ------------------------------------------<= Visualizar apenas n° de commits realizados por cada autor
 git log --graph -------------------------------------------<= Mostrar os commits visualmente como grafico
-git whatchanged -------------------------------------------<= Mostra além dos commits, "quais arqs" foram alterados em cadas commit
-git whatchanged -------------------------------------------<= Mostra quais alterações foram feitas "em cada arq" de cada commit
+git whatchanged -------------------------------------------<= Mostra além dos commits, "quais arqs" foram alterados em cada commit
+git whatchanged -p ----------------------------------------<= Mostra quais alterações cada commit fez em cada arquivo
+git log -p ------------------------------------------------<= Tem a mesma função do whatchanged -p |
 git log -g ------------------------------------------------<= Visualizar commits que já foram deletados da HEAD. Função conhecida como "reflog"
 git reflog show -------------------------------------------<= Mostra versão abreviada do historico de commits em uma HEAD
 
