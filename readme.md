@@ -19,6 +19,11 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 
+## HUB - Makes Git Better with Github:
+* [Mais Git com Hub - Caelum Blog](http://blog.caelum.com.br/github-na-linha-de-comando/)
+* [By Mislav Marohnić](https://github.com/github/hub)
+* [hub is a command-line wrapper for git that makes you better at GitHub](https://hub.github.com/)
+
 ## Semantic Versioning:
 
 * [Versionamento Semântico – Ou como versionar software](https://fjorgemota.com/versionamento-semantico-ou-como-versionar-software/)
