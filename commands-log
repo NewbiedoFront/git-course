@@ -58,4 +58,10 @@ git branch NomeDaBranch -----------------------------------<= Criar um Novo Bran
 git checkout -b -------------------------------------------<= Atalho para CRIAR e "entrar/mudar/pular" para esse novo branch "Switched to..."
 * NomedaBranch --------------------------------------------<= O * Indica em qual branch estamos no repositorio local
 git checkout NomeDaBranch ---------------------------------<= Para pular/mudar de uma branch para outra
-git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch --<= O -t indica que o branch criada local deve ser traqueada com a branch remota
+git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch ----<= O -t indica que o branch criada local deve ser traqueada com a branch remota
+
+git merge NomeDoBranch ------------------------------------<= Para Mesclar/Fundir commits de um branch com outro branch. Ex. Local c/ o Remoto
+git rebase ------------------------------------------------<= Atualiza uma branch com base em outra
+git rebase BranchBase BranchASerAtualizado ----------------<= Como Exemplo o BranchBase seria a Master e o BranchASerAtualizado seri dev
+git rebase master dev -------------------------------------<= Pegando Todas as atualizações do branch master e fundindo na branch dev
+git rebase --continue -------------------------------------<= Para continuar o processo de rebase apos resolução manual de confiltos
