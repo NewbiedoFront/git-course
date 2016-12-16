@@ -54,7 +54,8 @@ git clone https://urlDoRepositorioRemoto ------------------<= Para Baixar uma co
 
 git branch ------------------------------------------------<= Visualizar branches locais
 git branch -r ---------------------------------------------<= Visualizar somente as branches remotas 
-git branch NomeDaBranch -----------------------------------<= Criar uma Nova Branch
+git branch NomeDaBranch -----------------------------------<= Criar um Novo Branch
+git checkout -b -------------------------------------------<= Atalho para CRIAR e "entrar/mudar/pular" para esse novo branch "Switched to..."
 * NomedaBranch --------------------------------------------<= O * Indica em qual branch estamos no repositorio local
 git checkout NomeDaBranch ---------------------------------<= Para pular/mudar de uma branch para outra
-git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch --<= O -t indica que a branch criada local deve ser traqueada com a branch remota
+git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch --<= O -t indica que o branch criada local deve ser traqueada com a branch remota
