@@ -32,3 +32,10 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)
 * [semver.org](http://semver.org/)
 * [http://slides.com/renatofilho/github-equipe#/](Trabalhando em Equipe com GitHub)
+
+## Working with branches and merges:
+
+* [Git-SCM - Git Branching](http://bit.ly/Basic-Branching-and-Merging)
+* [How to work with branches](https://youtu.be/JTE2Fn_sCZs)
+* [Git Branching and Merging Strategies](https://youtu.be/to6tIdy5rNc)
+ 
