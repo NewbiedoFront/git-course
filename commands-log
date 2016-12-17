@@ -36,6 +36,8 @@ git reset --soft ------------------------------------------<= Retorna para para 
 git reset --mixed -----------------------------------------<= Retorna para antes da Fila de espera de commits [index / Staging Area] --"Modified"
 git reset --hard ------------------------------------------<= Manda as alterações e o commit para marte
 
+git revert ------------------------------------------------<= Desfaz as alterações que um commit antigo fez "isoladamente sem alterar commits posteriores"
+
 
 git tag -a 0.0.0 -m "description" -------------------------<= Adicionar a tag, tipo de modificação e Mensagem de commit
 git push origin master --tags  ----------------------------<= Empurra a nova tag para o repositorio remoto
@@ -58,6 +60,7 @@ git branch NomeDaBranch -----------------------------------<= Criar um Novo Bran
 git checkout -b -------------------------------------------<= Atalho para CRIAR e "entrar/mudar/pular" para esse novo branch "Switched to..."
 * NomedaBranch --------------------------------------------<= O * Indica em qual branch estamos no repositorio local
 git checkout NomeDaBranch ---------------------------------<= Para pular/mudar de uma branch para outra
+git checkout NomeDoArquivo --------------------------------<= Reseta esse arquivo para o ultimo estado em que encontrava salvo no repositorio
 git branch -t NovoBranch NomeDoRepoRemoto/NomeDaBranch ----<= O -t indica que o branch criada local deve ser traqueada com a branch remota
 
 git merge NomeDoBranch ------------------------------------<= Para Mesclar/Fundir commits de um branch com outro branch. Ex. Local c/ o Remoto
