@@ -23,6 +23,8 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Mais Git com Hub - Caelum Blog](http://blog.caelum.com.br/github-na-linha-de-comando/)
 * [By Mislav Marohnić](https://github.com/github/hub)
 * [hub is a command-line wrapper for git that makes you better at GitHub](https://hub.github.com/)
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "markdown by GitHub")
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "markdown guide by Adam Pritchard")
 
 ## Semantic Versioning:
 
