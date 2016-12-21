@@ -10,7 +10,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
 * [Ebook Pro Git](https://git-scm.com/book/en/v2)
 * [Git/Github - Alura](bit.ly/Curso-Git)
-* [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908670)
+* [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908680 "Basic about ramifications - (Branches)")
 * [About Git - Caelum Blog](http://bit.ly/git-nem-tudo-esta-perdido)
 * [git-reflog - Manage reflog information](https://git-scm.com/docs/git-reflog)
 * [Git/Github - RBtech](http://bit.ly/CursoBasicoGit-RBtech)
