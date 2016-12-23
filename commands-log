@@ -69,3 +69,16 @@ git rebase ------------------------------------------------<= Atualiza uma branc
 git rebase BranchBase BranchASerAtualizado ----------------<= Como Exemplo o BranchBase seria a Master e o BranchASerAtualizado seri dev
 git rebase master dev -------------------------------------<= Pegando Todas as atualizações do branch master e fundindo na branch dev
 git rebase --continue -------------------------------------<= Para continuar o processo de rebase apos resolução manual de confiltos
+
+git stash -------------------------------------------------<= salva alterações que não foram commitadas em um local temporario
+git stash "É salvar o trampo em progresso de sexta para retornar na segunda exatamente de onde parou!"
+
+git stash list --------------------------------------------<= Mostra todas as alterações que estão salvas nesse local temporario
+git stash pop ---------------------------------------------<= Retomar o ultimo status de alterações lançadas no stash
+git stash apply stash@{N°} --------------------------------<= Retomar um status de alterações especifico conforme os que estão na lista do stash
+git stash drop --------------------------------------------<= Deleta o status de alterações de dentro do stash
+
+git bisect start ------------------------------------------<= Para procurar commits especificos
+git bisect bad HEAD ---------------------------------------<= Indico que o inicio é ruim!
+git bisect good hashDaQualEuEscolhiParaComecarAProcura ----<= Indico que até nesse commit estava Bom!
+Este recurso vai escolhendo commits especificos a serem observados e vc deve apenas indicar se esta "proximo/ou não" do commit alvo q fez tal alteração
