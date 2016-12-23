@@ -42,4 +42,9 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Git-SCM - Git Branching](http://bit.ly/Basic-Branching-and-Merging)
 * [How to work with branches](https://youtu.be/JTE2Fn_sCZs)
 * [Git Branching and Merging Strategies](https://youtu.be/to6tIdy5rNc)
+
+## Merging vs. Rebasing:
+
+* [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing "Git --distributed-is-the-new-centralized")
+* [Atrassian - Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing/ "atlassian - Tutorials: Merging vs. Rebasing")
  
