@@ -19,6 +19,9 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 
+## Getting Git Right:
+* [Atlassian - Getting Git Right](https://www.atlassian.com/git/ "Getting Git right, with tutorials, news and tips.")
+
 ## HUB - Makes Git Better with Github:
 * [Mais Git com Hub - Caelum Blog](http://blog.caelum.com.br/github-na-linha-de-comando/)
 * [By Mislav Marohnić](https://github.com/github/hub)
