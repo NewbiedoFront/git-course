@@ -47,4 +47,6 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 * [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing "Git --distributed-is-the-new-centralized")
 * [Atrassian - Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing/ "atlassian - Tutorials: Merging vs. Rebasing")
+* [Git - When to Merge vs. When to Rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/ "via Derek Gourlay")
+* [Arruda - Dicas de Git: Rebase vs Merge](http://www.arruda.blog.br/programacao/dicas-de-git-rebase-vs-merge/)
  
