@@ -79,6 +79,21 @@ git stash apply stash@{N°} --------------------------------<= Retomar um status
 git stash drop --------------------------------------------<= Deleta o status de alterações de dentro do stash
 
 git bisect start ------------------------------------------<= Para procurar commits especificos
-git bisect bad HEAD ---------------------------------------<= Indico que o inicio é ruim!
-git bisect good hashDaQualEuEscolhiParaComecarAProcura ----<= Indico que até nesse commit estava Bom!
+git bisect bad HEAD ---------------------------------------<= Indico que o inicio é ruim! (Muito Longe)
+git bisect good hashDaQualEuEscolhiParaComecarAProcura ----<= Indico que até nesse commit estava Bom! (Mais Proximo)
 Este recurso vai escolhendo commits especificos a serem observados e vc deve apenas indicar se esta "proximo/ou não" do commit alvo q fez tal alteração
+
+git alias -------------------------------------------------<= Permite criar "Atalhos" para comandos especificos ou criar sequencias de comandos
+editor ~/.gitconfig ---------------------------------------<= local onde ficam armazenados todas as configurações de atalhos
+[alias]
+	st = status
+	lg = log
+	co = checkout -----------------------------------------<= Basta digitar "git co" .. e ele executara o "git checkout" normalmente
+
+send = !git checkout master && git pull && git checkout dev && git rebase master && git checkout master && git merge dev && git push --- <= ex de sequência de comandos que ira {entrar na master, trazer atualizações do remoto, voltar na dev rebasear com a master já atualizada, retornar na master, mescla-la com a dev e enviar para o remoto.. }
+
+git log --pretty=oneline ----------------------------------<= Tudo em uma linha
+git log --pretty=short ------------------------------------<= Apenas algumas informações
+git log --pretty=full -------------------------------------<= Um log completo com todas as infos refs ao commit
+git log --pretty='%an realizou o commit %h: %s' -----------<= Criando meu proprio style de log "Mostra Author msg hash do commit msg do commit
+git log --stat --------------------------------------------<= Mostra apenas o arq alterado e quais foram as alterações nele de forma resumida
