@@ -18,6 +18,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Git - Roger Dudler](bit.ly/Git-O-Guia-Pratico)
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
+* [Saindo do Basico com Git](http://imasters.com.br/desenvolvimento/saindo-do-basico-com-git/ "via portal iMasters")
 
 ## Getting Git Right:
 * [Atlassian - Getting Git Right](https://www.atlassian.com/git/ "Getting Git right, with tutorials, news and tips.")
