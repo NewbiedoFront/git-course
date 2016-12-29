@@ -97,3 +97,6 @@ git log --pretty=short ------------------------------------<= Apenas algumas inf
 git log --pretty=full -------------------------------------<= Um log completo com todas as infos refs ao commit
 git log --pretty='%an realizou o commit %h: %s' -----------<= Criando meu proprio style de log "Mostra Author msg hash do commit msg do commit
 git log --stat --------------------------------------------<= Mostra apenas o arq alterado e quais foram as alterações nele de forma resumida
+
+
+git cherry-pick hashDocommit ------------------------------<= Puxa um commit especifico e isolado de um branch para outro e outras funções...
