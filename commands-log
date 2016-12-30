@@ -100,3 +100,8 @@ git log --stat --------------------------------------------<= Mostra apenas o ar
 
 
 git cherry-pick hashDocommit ------------------------------<= Puxa um commit especifico e isolado de um branch para outro e outras funções...
+
+git gc ----------------------------------------------------<= Para comprimir arquivos de revisão e limpeza interna
+git ls-tree -----------------------------------------------<= Listar objetos Tree ou Blob "dependendo do SHA" com hash completo e nome
+git show -s --pretty=raw hashDocommit ---------------------<= Visualizar a qual tree, descendente, autor e commiter tal alteração pertence
+git cat-file tag NomeDaTag --------------------------------<= Visualizar infos da tag como nome do autor, assinatura entre outras infos..
