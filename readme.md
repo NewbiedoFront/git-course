@@ -9,16 +9,17 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [minicursogit](http://minicursogit.github.io/)
 * [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
 * [Ebook Pro Git](https://git-scm.com/book/en/v2)
-* [Git/Github - Alura](bit.ly/Curso-Git)
+* [Git/Github - Alura](https://cursos.alura.com.br/course/git)
 * [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908680 "Basic about ramifications - (Branches)")
 * [About Git - Caelum Blog](http://bit.ly/git-nem-tudo-esta-perdido)
 * [git-reflog - Manage reflog information](https://git-scm.com/docs/git-reflog)
 * [Git/Github - RBtech](http://bit.ly/CursoBasicoGit-RBtech)
 * [Git - theandersonn](http://bit.ly/ComandosGit)
-* [Git - Roger Dudler](bit.ly/Git-O-Guia-Pratico)
+* [Git - Guia prático- Roger Dudler](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 * [Saindo do Basico com Git](http://imasters.com.br/desenvolvimento/saindo-do-basico-com-git/ "via portal iMasters")
+* [[PDF] O Livro da Comunidade Git](http://djalma.blog.br/material-texto/git-book.pdf)
 
 ## Getting Git Right:
 * [Atlassian - Getting Git Right](https://www.atlassian.com/git/ "Getting Git right, with tutorials, news and tips.")
@@ -39,7 +40,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Versionamento Semântico com GIT](http://www.jorgejardim.com.br/versionamento-semantico-com-git/)
 * [Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)
 * [semver.org](http://semver.org/)
-* [http://slides.com/renatofilho/github-equipe#/](Trabalhando em Equipe com GitHub)
+* [Trabalhando em Equipe com GitHub](http://slides.com/renatofilho/github-equipe#/)
 
 ## Working with branches and merges:
 
