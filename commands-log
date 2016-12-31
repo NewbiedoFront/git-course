@@ -105,3 +105,19 @@ git gc ----------------------------------------------------<= Para comprimir arq
 git ls-tree -----------------------------------------------<= Listar objetos Tree ou Blob "dependendo do SHA" com hash completo e nome
 git show -s --pretty=raw hashDocommit ---------------------<= Visualizar a qual tree, descendente, autor e commiter tal alteração pertence
 git cat-file tag NomeDaTag --------------------------------<= Visualizar infos da tag como nome do autor, assinatura entre outras infos..
+
+git commit -a ---------------------------------------------<= Add arqs modified (but ñ os novos) ao index e realiza o commit tudo de uma vez
+
+git log --since="2 weeks ago" -----------------------------<= Para Mostrar todos os commits feitos no periodo estipulado no filtro "2 weeks"
+git log --no-merges ---------------------------------------<= Não mostra commits com merge
+git log -p ------------------------------------------------<= Para visualizar um log com patches
+git log --stat --------------------------------------------<= Para visualizar Quais arqs foram alterados no commit e quantas linhas foram adicionadas e/ou removidas de cada um
+
+git log --pretty="Especie" --------------------------------<= Para formatar/customizar a saida do log exs:
+git log --pretty=oneline ----------------------------------<= Para visualizar todas as infs do commit em apenas uma linha
+git log --pretty=short ------------------------------------<= Para visualizar menos infos do commit
+git log --pretty=medium -----------------------------------<= Para visualizar +/- infos do commit
+git log --pretty=full -------------------------------------<= Mais do mesmo
+git log --pretty=fuller -----------------------------------<= Mostrar todas as infos do commit
+git log --pretty=email ------------------------------------<= Mostrar o email e infos relacionadas ao autor do commit
+git log --pretty=format -----------------------------------<= Consigo customizar minha propria saida de log (Ver documentação do git log)
