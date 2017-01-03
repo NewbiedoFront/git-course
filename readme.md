@@ -9,13 +9,13 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [minicursogit](http://minicursogit.github.io/)
 * [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
 * [Ebook Pro Git](https://git-scm.com/book/en/v2)
-* [Git/Github - Alura](https://cursos.alura.com.br/course/git)
-* [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908680 "Basic about ramifications - (Branches)")
-* [About Git - Caelum Blog](http://bit.ly/git-nem-tudo-esta-perdido)
+* [Git/Github - Alura](https://cursos.alura.com.br/course/git) ☑
+* [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908680 "Basic about ramifications - (Branches)") ☑
+* [About Git - Caelum Blog](http://bit.ly/git-nem-tudo-esta-perdido) ☑
 * [git-reflog - Manage reflog information](https://git-scm.com/docs/git-reflog)
 * [Git/Github - RBtech](http://bit.ly/CursoBasicoGit-RBtech)
 * [Git - theandersonn](http://bit.ly/ComandosGit)
-* [Git - Guia prático- Roger Dudler](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+* [Git - Guia prático- Roger Dudler](http://rogerdudler.github.io/git-guide/index.pt_BR.html) ☑
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 * [Saindo do Basico com Git](http://imasters.com.br/desenvolvimento/saindo-do-basico-com-git/ "via portal iMasters")
