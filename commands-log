@@ -26,8 +26,9 @@ git reflog show -------------------------------------------<= Mostra versão abr
 git show [n°rash] -----------------------------------------<= Visualizar informações do commit como autor, data, hora, mensagem de commit
 
 
-git diff --------------------------------------------------<= Visualiar e comparar alterações atuais com as do ultimo commit
-git diff --name-only --------------------------------------<= Mostra apenas o nome dos arquivos que foram alterados e não commitados
+git diff --------------------------------------------------<= Visualiar comparações entre commits
+git diff --name-only --------------------------------------<= Mostra apenas o nome dos arquivos que foram alterados
+git diff --cached -----------------------------------------<= Para visualziar quais alterações estão selecionadas para o proximo commit
 
 git commit -am "msg..." -----------------------------------<= Adicionar todas as modificações em um commmit
 
