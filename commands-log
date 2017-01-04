@@ -28,7 +28,7 @@ git show [n°rash] -----------------------------------------<= Visualizar inform
 
 git diff --------------------------------------------------<= Visualiar comparações entre commits
 git diff --name-only --------------------------------------<= Mostra apenas o nome dos arquivos que foram alterados
-git diff --cached -----------------------------------------<= Para visualziar quais alterações estão selecionadas para o proximo commit
+git diff --cached -----------------------------------------<= Mostra todas as alterações que estão no "Index/staged" ou seja, alterações que  estão selecionadas para o proximo commit
 
 git commit -am "msg..." -----------------------------------<= Adicionar todas as modificações em um commmit
 
@@ -122,3 +122,7 @@ git log --pretty=full -------------------------------------<= Mais do mesmo
 git log --pretty=fuller -----------------------------------<= Mostrar todas as infos do commit
 git log --pretty=email ------------------------------------<= Mostrar o email e infos relacionadas ao autor do commit
 git log --pretty=format -----------------------------------<= Consigo customizar minha propria saida de log (Ver documentação do git log)
+
+git grep TermoChave -------------------------------------<= Para Fazer buscas dentro do repositorio especificado pelo Termo Chave
+git grep --name-only TermoChave -------------------------<= Apresenta somente o nome dos arqs que possuem a Termo Chave pesquisada
+git grep -c TermoChave ----------------------------------<= Visualizar em quantas linhas o termo foi encontrado em cada arq
