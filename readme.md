@@ -19,7 +19,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [Git Config - Davidson Fellipe](http://bit.ly/Configurando-Git-Como-Profissinal)
 * [Comandos Git - Básico ao Avançado](http://comandosgit.github.io/)
 * [Saindo do Basico com Git](http://imasters.com.br/desenvolvimento/saindo-do-basico-com-git/ "via portal iMasters")
-* [[PDF] O Livro da Comunidade Git](http://djalma.blog.br/material-texto/git-book.pdf) 👏
+* [[PDF] O Livro da Comunidade Git](http://djalma.blog.br/material-texto/git-book.pdf) ☑ 👏 ☑
 
 ## Getting Git Right:
 * [Atlassian - Getting Git Right](https://www.atlassian.com/git/ "Getting Git right, with tutorials, news and tips.")
