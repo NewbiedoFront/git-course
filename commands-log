@@ -84,6 +84,9 @@ git bisect bad HEAD ---------------------------------------<= Indico que o inici
 git bisect good hashDaQualEuEscolhiParaComecarAProcura ----<= Indico que até nesse commit estava Bom! (Mais Proximo)
 Este recurso vai escolhendo commits especificos a serem observados e vc deve apenas indicar se esta "proximo/ou não" do commit alvo q fez tal alteração
 
+git blame NomeDoArquivo -----------------------------------<= Visualizar Quem modificou, a data em qual sessão do arq e em quais linhas
+git blame -L N°,+N° ---------------------------------------<= Visualizar da linha N°x até +N°y | ex: 10,+4: mostrarias as linhas 10,11,12,13
+
 git alias -------------------------------------------------<= Permite criar "Atalhos" para comandos especificos ou criar sequencias de comandos
 editor ~/.gitconfig ---------------------------------------<= local onde ficam armazenados todas as configurações de atalhos
 [alias]
