@@ -5,7 +5,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 ## links log: 
 
-* [Try Git - CodeSchool](https://try.github.io/levels/1/challenges/1)
+* [Try Git - CodeSchool](https://try.github.io/levels/1/challenges/1) ☑
 * [minicursogit](http://minicursogit.github.io/)
 * [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
 * [Ebook Pro Git](https://git-scm.com/book/en/v2)
