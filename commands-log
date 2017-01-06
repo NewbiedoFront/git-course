@@ -9,7 +9,12 @@ git config --list -----------------------------------------<= Mostra todas as co
 
 git status ------------------------------------------------<= Mostrar o status atual do repositorio local :p
 
-git add	---------------------------------------------------<= Adicionando ou atualizando alterações nos arqs para a staging area/index
+git add	NomeDoArq ou Repo ---------------------------------<= Adicionando ou atualizando alterações nos arqs para a staging area/index
+git add . -------------------------------------------------<= Para adicionar tudo que esta no repositorio atual
+git add --all ---------------------------------------------<= Para adicionar tanto arqs novos como os modificados na staging area
+git add '*.ExtensionType' ---------------------------------<= Para Adicionar todos os arqs do projeto que tenham a mesma extensão ex: .js
+git add NomeDoDiretorio/*.txt -----------------------------<= Adicionar todos os arquivos .txt de dentro do diretorio docs
+git add NomeDoDiretorio/ ----------------------------------<= Adicionar todos os arquivos contidos no diretorio especificado 
 git commit -m "msg..." ------------------------------------<= Criando novo commit com mensagem
 git log ---------------------------------------------------<= Visualização de commit e msgs
 git log --decorate ----------------------------------------<= Visualização mais completa dos commits
@@ -59,6 +64,7 @@ git branch ------------------------------------------------<= Visualizar branche
 git branch -r ---------------------------------------------<= Visualizar somente as branches remotas 
 git branch NomeDoBranch -----------------------------------<= Criar um Novo Branch
 git branch -D NomeDoBranch --------------------------------<= Deletar um Branch
+git branch -D -f ------------------------------------------<= Deletar por força bruta um branch mesmo que este não tenha sido mesclado
 git checkout -b -------------------------------------------<= Atalho para CRIAR e "entrar/mudar/pular" para esse novo branch "Switched to..."
 * NomedaBranch --------------------------------------------<= O * Indica em qual branch estamos no repositorio local
 git checkout NomeDaBranch ---------------------------------<= Para pular/mudar de uma branch para outra
@@ -128,6 +134,9 @@ git log --pretty=fuller -----------------------------------<= Mostrar todas as i
 git log --pretty=email ------------------------------------<= Mostrar o email e infos relacionadas ao autor do commit
 git log --pretty=format -----------------------------------<= Consigo customizar minha propria saida de log (Ver documentação do git log)
 
-git grep TermoChave -------------------------------------<= Para Fazer buscas dentro do repositorio especificado pelo Termo Chave
-git grep --name-only TermoChave -------------------------<= Apresenta somente o nome dos arqs que possuem a Termo Chave pesquisada
-git grep -c TermoChave ----------------------------------<= Visualizar em quantas linhas o termo foi encontrado em cada arq
+git grep TermoChave ---------------------------------------<= Para Fazer buscas dentro do repositorio especificado pelo Termo Chave
+git grep --name-only TermoChave ---------------------------<= Apresenta somente o nome dos arqs que possuem a Termo Chave pesquisada
+git grep -c TermoChave ------------------------------------<= Visualizar em quantas linhas o termo foi encontrado em cada arq
+
+git rm '*.txt' --------------------------------------------<= Remover todos os arq de extensão .txt da arvore de trabalho
+git rm -r FolderName --------------------------------------<= Remover todos os subdiretório e arquivos do diretorio especificado
