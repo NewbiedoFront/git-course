@@ -7,7 +7,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 * [x] [Try Git - CodeSchool](https://try.github.io/levels/1/challenges/1)
 * [x] [minicursogit](http://minicursogit.github.io/)
-* [ ] [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
+* [x] [Learn Git - CodeCademy](https://www.codecademy.com/learn/learn-git)
 * [ ] [Ebook Pro Git](https://git-scm.com/book/en/v2)
 * [x] [Git/Github - Alura](https://cursos.alura.com.br/course/git)
 * [x] [Git/Github - Justen](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes/lectures/908680 "Basic about ramifications - (Branches)")
@@ -53,5 +53,5 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [ ] [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing "Git --distributed-is-the-new-centralized")
 * [ ] [Atrassian - Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing/ "atlassian - Tutorials: Merging vs. Rebasing")
 * [ ] [Git - When to Merge vs. When to Rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/ "via Derek Gourlay")
-* [ ] [Arruda - Dicas de Git: Rebase vs Merge](http://www.arruda.blog.br/programacao/dicas-de-git-rebase-vs-merge/)
+* [x] [Arruda - Dicas de Git: Rebase vs Merge](http://www.arruda.blog.br/programacao/dicas-de-git-rebase-vs-merge/)
  
