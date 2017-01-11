@@ -1,3 +1,7 @@
+man git --------------------------------------------------|
+git --help -----------------------------------------------|<= Consultas Rápidas e Tutoriais
+git help tutorial ----------------------------------------|
+
 git init --------------------------------------------------<= Iniciar o Monitoramento 
 
 git config user.name "Iury Chagas" ------------------------<= Configurar o Nome do admin apenas para o repositorio em questão
@@ -56,6 +60,11 @@ git remote add NomeDoRepositorio http://url ---------------<= Criando, Nomeando 
 git push NomeDoRepositorioRemoto NomeDaBranch -------------<= Empurrar os commits alterados para o repositorio remoto
 git pull NomeDoRepositorioRemoto NomeDaBranch -------------<= Puxa as atualizações do repositorio remoto para o local
 git pull -u NomeDaBranch ----------------------------------<= Fazer com que a branch criada local seja a mesma criada no repositorio remoto
+//* git pull equivale ao git fetch seguido de um git merge *//
+
+git fetch -------------------------------------------------<=|
+git fetch origin master -----------------------------------<=|: Baixa as atualizações do remoto para o local mas não incorpora ao repo local
+git fetch origin NomeDaBranch -----------------------------<=|
 
 git clone https://urlDoRepositorioRemoto ------------------<= Para Baixar uma copia "clonar" um repositorio remoto para o repositorio local
 
@@ -138,5 +147,8 @@ git grep TermoChave ---------------------------------------<= Para Fazer buscas 
 git grep --name-only TermoChave ---------------------------<= Apresenta somente o nome dos arqs que possuem a Termo Chave pesquisada
 git grep -c TermoChave ------------------------------------<= Visualizar em quantas linhas o termo foi encontrado em cada arq
 
+git rm NomeDoArquivo --------------------------------------<= Remover o arquivo do git e do computador
+git rm --cached NomeDoArquivo -----------------------------<= Remover o arquivo apenas do git
 git rm '*.txt' --------------------------------------------<= Remover todos os arq de extensão .txt da arvore de trabalho
 git rm -r FolderName --------------------------------------<= Remover todos os subdiretório e arquivos do diretorio especificado
+git remote rm origin --------------------------------------<= Serve para remover uma "Referência" à um repositório remoto. Necessário quando se pretende substituir o local onde o remoto está hospedado
