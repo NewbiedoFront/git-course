@@ -28,10 +28,20 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [ ] [Mais Git com Hub - Caelum Blog](http://blog.caelum.com.br/github-na-linha-de-comando/)
 * [ ] [By Mislav Marohnić](https://github.com/github/hub)
 * [ ] [hub is a command-line wrapper for git that makes you better at GitHub](https://hub.github.com/)
+
+## Github and Markdown:
+
 * [ ] [Markdown Basics](http://markdown-guide.readthedocs.io/en/latest/basics.html "This should cover 99% of your Markdown needs!")
 * [ ] [Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "markdown by GitHub")
 * [ ] [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "markdown guide by Adam Pritchard")
 * [ ] [markdown tutorial](http://www.markdowntutorial.com/ "Markdown Tutotial")
+* [x] [Aprenda Markdown via blog.da2k](http://blog.da2k.com.br/2015/02/08/aprenda-markdown/ "Aprenda Markdown by da2k")
+* [ ] [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/ "Writing on GitHub")
+* [ ] [Categories / Writing on GitHub](https://help.github.com/categories/writing-on-github/)
+* [ ] [Daring Fireball - Markdown Web Dingus:](http://daringfireball.net/projects/markdown/dingus)
+* [ ] [Uso avançado de Markdown 😳](http://aprender19.unb.br/help.php?file=advanced_markdown.html)
+* [ ] [Formatação de texto com Markdown - Jake Holman](https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown)
+* [ ] [R Markdown - Fernando de Pol Mayer UFPR](http://www.leg.ufpr.br/~fernandomayer/useR/Rmarkdown-rautu.html)
 
 ## Semantic Versioning:
 
