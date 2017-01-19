@@ -33,6 +33,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 * [ ] [Markdown Basics](http://markdown-guide.readthedocs.io/en/latest/basics.html "This should cover 99% of your Markdown needs!")
 * [ ] [Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "markdown by GitHub")
+* [ ] [Mastering Markdown by Wes Bos](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3 "Video Tutorials by Wes Bos")
 * [ ] [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "markdown guide by Adam Pritchard")
 * [ ] [markdown tutorial](http://www.markdowntutorial.com/ "Markdown Tutotial")
 * [x] [Aprenda Markdown via blog.da2k](http://blog.da2k.com.br/2015/02/08/aprenda-markdown/ "Aprenda Markdown by da2k")
