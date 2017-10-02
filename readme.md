@@ -40,9 +40,15 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [ ] [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/ "Writing on GitHub")
 * [ ] [Categories / Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 * [ ] [Daring Fireball - Markdown Web Dingus:](http://daringfireball.net/projects/markdown/dingus)
-* [ ] [Uso avançado de Markdown 😳](http://aprender19.unb.br/help.php?file=advanced_markdown.html)
+* [ ] [Uso avançado de Markdown](http://aprender19.unb.br/help.php?file=advanced_markdown.html)
 * [ ] [Formatação de texto com Markdown - Jake Holman](https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown)
 * [ ] [R Markdown - Fernando de Pol Mayer UFPR](http://www.leg.ufpr.br/~fernandomayer/useR/Rmarkdown-rautu.html)
+
+## Git-Flow:
+
+* [ ] [git-flow](https://github.com/nvie/gitflow)
+* [x] [Fluxo de versionamento de software com git flow](https://www.youtube.com/watch?v=0L1zx7l6JSc)
+* [ ] [cheatsheet do git-flow](http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
 ## Semantic Versioning:
 
