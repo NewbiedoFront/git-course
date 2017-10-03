@@ -52,12 +52,12 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 
 ## Semantic Versioning:
 
-* [ ] [Versionamento Semântico – Ou como versionar software](https://fjorgemota.com/versionamento-semantico-ou-como-versionar-software/)
-* [ ] [Versionamento com Tags do Git](http://bit.ly/semantica-de-versionamento-com-tags-do-git)
-* [ ] [Versionamento Semântico com GIT](http://www.jorgejardim.com.br/versionamento-semantico-com-git/)
-* [ ] [Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)
-* [ ] [semver.org](http://semver.org/)
-* [ ] [Trabalhando em Equipe com GitHub](http://slides.com/renatofilho/github-equipe#/)
+* [x] [Versionamento Semântico – Ou como versionar software](https://fjorgemota.com/versionamento-semantico-ou-como-versionar-software/)
+* [x] [Versionamento com Tags do Git](http://bit.ly/semantica-de-versionamento-com-tags-do-git)
+* [x] [Versionamento Semântico com GIT](http://www.jorgejardim.com.br/versionamento-semantico-com-git/)
+* [ ] ~~[Trabalhando com Tags no Git](http://martinsdev.com.br/sem-categoria/trabalhando-com-tags-no-git)~~
+* [x] [semver.org](http://semver.org/)
+* [x] [Trabalhando em Equipe com GitHub](http://slides.com/renatofilho/github-equipe#/)
 
 ## Working with branches and merges:
 
