@@ -49,6 +49,7 @@ Repositorio temporario para aprender e revisar conteudos do git/github
 * [x] [git-flow](https://github.com/nvie/gitflow)
 * [x] [Fluxo de versionamento de software com git flow](https://www.youtube.com/watch?v=0L1zx7l6JSc)
 * [x] [cheatsheet do git-flow](http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
+* [ ] [Git Flow – Uma forma legal de organizar repositórios git](https://fjorgemota.com/git-flow-uma-forma-legal-de-organizar-repositorios-git/) via [@fjorgemota](https://github.com/fjorgemota/)
 
 ## Semantic Versioning:
 
